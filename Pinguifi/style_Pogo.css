@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+.ligneParole {
+    font-size: 20px;
+    color: white;
+    transition: color 0.3s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.ligneActive {
+    color: #058a05;
+}
+
+/* Center the main content container */
+.main-content {
+    display: flex
+}
+
+.navbar {
+    background-color: black;
+}
+
+.navbar .nav-link {
+    color: white; /* Couleur du texte */
+    margin-right: 15px; /* Espacement entre les liens */
+    text-decoration: none; /* Supprimer la décoration de texte */
+}
+
+.navbar .nav-link:hover {
+    color: #058a05; /* Couleur du texte au survol */
+}
+
+.navbar .dropdown-menu {
+    background-color: black;
+    border: 1px solid #058a05;
+}
+.navbar-brand:hover {
+    color: #058a05;
+    transition: 0.3s;
+}
+
+.navbar-brand img {
+    margin-right: 10px;
+}
+
+.navbar .dropdown-item {
+    color :white;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .dropdown-item:hover {
+    color :#058a05;
+    transition: 0.3s;
+}
+
+#lecteurAudio {
+    margin-top: 10px;
+}
